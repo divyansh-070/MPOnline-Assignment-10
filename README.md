@@ -182,5 +182,7 @@ HeartDiseaseDeployment/
 ## 👤 Author
 
 **Name:** Divyansh Kumar
+
 **Registration Number:** 23BAI10514
+
 **Render Deployment URL:** `https://heart-disease-prediction-dq11.onrender.com`
