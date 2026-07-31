@@ -4,6 +4,16 @@
 
 https://heart-disease-prediction-dq11.onrender.com/ui
 
+Name: Divyansh Kumar
+
+Registration No.: 23BAI10514
+
+Application No.: IN26011845
+
+Batch No.: 1 A
+
+Email ID: divyansh.23bai10514@vitbhopal.ac.in
+
 ## 🎯 Objective
 
 Build a machine learning model that predicts whether a patient is at risk of heart disease based on clinical parameters, expose it through a Flask REST API, and deploy it as a live web service on Render.
