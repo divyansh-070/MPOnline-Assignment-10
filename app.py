@@ -83,11 +83,8 @@ def predict():
         proba = model.predict_proba(input_row)[0].tolist() if hasattr(model, "predict_proba") else None
 
         result = {
-            "prediction": "Heart Disease Detected" if int(pred) == 1 else "No Heart Disease Detected",
-            "prediction_label": int(pred)
+            "prediction": "Heart Disease Detected" if int(pred) == 1 else "No Heart Disease Detected"
         }
-        if proba is not None:
-            result["probability"] = {"no_disease": proba[0], "disease": proba[1]}
 
         return jsonify(result)
 
