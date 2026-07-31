@@ -49,7 +49,7 @@ See `Assignment-10.ipynb` for the confusion matrix, full classification report, 
 ## 🔌 API Usage
 
 **Base URL (local):** `http://127.0.0.1:5000`
-**Base URL (deployed):** `<YOUR_RENDER_URL_HERE>`
+**Base URL (deployed):** `https://heart-disease-prediction-dq11.onrender.com`
 
 ### `GET /`
 Health check — returns a message and the list of expected input fields.
@@ -93,7 +93,7 @@ Accepts patient details as JSON and returns a prediction.
 
 **cURL example:**
 ```bash
-curl -X POST https://<YOUR_RENDER_URL_HERE>/predict \
+curl -X POST https://https://heart-disease-prediction-dq11.onrender.com/predict \
      -H "Content-Type: application/json" \
      -d '{"age":63,"sex":1,"cp":3,"trestbps":145,"chol":233,"fbs":1,"restecg":0,"thalach":150,"exang":0,"oldpeak":2.3,"slope":0,"ca":0,"thal":1}'
 ```
@@ -153,7 +153,7 @@ curl -X POST https://<YOUR_RENDER_URL_HERE>/predict \
    curl -X POST https://heartdiseasedeployment.onrender.com/predict -H "Content-Type: application/json" -d '{...}'
    ```
 5. **Keep it active** — Render's free tier spins down idle services and takes ~30–60s to "wake up" on the next request; if evaluation timing matters, either upgrade the plan or ping the endpoint shortly before evaluation to warm it up.
-6. Paste your live URL here: **`<YOUR_RENDER_URL_HERE>`**
+6. Paste your live URL here: **`https://heart-disease-prediction-dq11.onrender.com`**
 
 ## ✅ Conclusion
 
@@ -183,4 +183,4 @@ HeartDiseaseDeployment/
 
 **Name:** Divyansh Kumar
 **Registration Number:** 23BAI10514
-**Render Deployment URL:** `<YOUR_RENDER_URL_HERE>`
+**Render Deployment URL:** `https://heart-disease-prediction-dq11.onrender.com`
